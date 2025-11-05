@@ -10,8 +10,10 @@ It contains the following 6 fields:
 - flag: The query (lyx). If there is no query, then this value is NO_QUERY.
 - user: the user that tweeted (robotickilldozr)
 - text: the text of the tweet (Lyx is cool)
-- The official link regarding the dataset with resources about how it was generated is here
-- The official paper detailing the approach is here
+
+Link : https://www.kaggle.com/datasets/kazanova/sentiment140
+
+## Approach
 
 - `Preprocessing` - Regex, NLTK stopwords, WordNet lemmatizer
 - `Feature Extraction` - TfidfVectorizer (with n-grams)
