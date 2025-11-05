@@ -13,9 +13,9 @@ It contains the following 6 fields:
 - The official link regarding the dataset with resources about how it was generated is here
 - The official paper detailing the approach is here
 
-Preprocessing - Regex, NLTK stopwords, WordNet lemmatizer
-Feature Extraction - TfidfVectorizer (with n-grams)
-Modeling - LogisticRegression (scikit-learn)
+- `Preprocessing` - Regex, NLTK stopwords, WordNet lemmatizer
+- `Feature Extraction` - TfidfVectorizer (with n-grams)
+- `Modeling` - LogisticRegression (scikit-learn)
 
 
 
